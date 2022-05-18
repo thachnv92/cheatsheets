@@ -62,6 +62,17 @@ User Related:
 - `grant __test2__ to __test1__;`: Allow `__test1__` to set its role as `__test2__`.
 - `\deu+`: List all user mapping on server
 
+## Installation
+# PSQL Client
+
+- Amazon Linux
+```
+sudo amazon-linux-extras install postgresql10
+```
+- Linux
+```
+sudo apt-get install -y postgresql-client
+```
 
 ## Configuration
 
